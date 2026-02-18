@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHUBH MANGALAM | YASH DEORE - Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Shubh Mangalam<span>.com</span></a>
+        <!-- Add your menu links here -->
+        <ul class="menu-links">
+          <!-- Add menu links as needed -->
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="registration-section">
+      <div class="content">
+        <h2>Register for Shubh Mangalam</h2>
+        <form action="process_registration.php" method="POST">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select><br>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required><br>
+
+          <label for="height">Height:</label>
+          <input type="text" id="height" name="height" required><br>
+
+          <label for="weight">Weight:</label>
+          <input type="text" id="weight" name="weight" required><br>
+
+          <label for="face_color">Face Color:</label>
+          <input type="text" id="face_color" name="face_color" required><br>
+
+          <label for="occupation">Occupation:</label>
+          <input type="text" id="occupation" name="occupation" required><br>
+
+          <label for="biodata">Biodata:</label>
+          <textarea id="biodata" name="biodata" rows="4" required></textarea><br>
+
+          <button type="submit" onclick="alert('Your Registration is being processed');">Register</button>
+        </form>
+      </div>
+    </section>
+
+  </body>
+</html>

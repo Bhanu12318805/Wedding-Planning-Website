@@ -1,0 +1,20 @@
+.home-pricing {
+    display: flex;
+    justify-content: space-around; /* Adjust this property as needed */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  }
+  
+  .home-pricing1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .home-pricing-card,
+  .home-pricing-card1,
+  .home-pricing-card2 {
+    width: calc(33.33% - 20px); /* Adjust the width as needed, considering margins */
+    margin: 10px; /* Adjust margin as needed */
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: blanchedalmond;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-container {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function myFunc() {
+            window.location.href="shubhmangalam.html";
+        }
+    </script>
+</head>
+<body>
+
+<div class="register-container">
+    <h2>Register</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="height">Height:</label>
+        <input type="text" id="height" name="height" required><br>
+
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" name="weight" required><br>
+
+        <label for="face_color">Face Color:</label>
+        <input type="text" id="face_color" name="face_color" required><br>
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation" required><br>
+
+        <label for="biodata">Biodata:</label>
+        <textarea id="biodata" name="biodata" rows="4" required></textarea><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <button onclick="myFunc()" type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>

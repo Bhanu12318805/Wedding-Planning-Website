@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modern Limp Peafowl</title>
+    <meta property="og:title" content="Modern Limp Peafowl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="custumeer.css"/>
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!--slide-->
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-header">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <span  class="home-logo">shubh mangalam.com</span>
+            <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+              <nav class="home-links">
+                <a class="active" href="#home">Home</a>
+                <a onclick="myDef()" href="#"><span class="home-nav2">About</span></a>
+                <script>
+                  function myDef() {
+                    window.location.href="about us.html";
+                  }
+                </script>
+                <a  href="#"><span class="home-nav3">Features</span></a>
+                <script>
+                  function myDefi() {
+                    window.location.href="pricing.html";
+                  }
+                </script>
+                <a onclick="myDefi()" href="#"><span class="home-nav4">Pricing</span></a>
+                <a onclick="myConc()" href="#"><span class="home-nav5">Contact</span></a>
+                <script>
+                  function myConc() {
+                    window.location.href="contact.html"
+                  }
+                </script>
+              </nav>
+              <div class="home-buttons">
+                <button onclick="myFunct()" class="home-login button">Login</button>
+                <script>
+                  function myFunct() {
+                    window.location.href="login.html";
+                  }
+                </script>
+
+                <button onclick="myFunc()" class="home-register button">Register</button>
+                <script>
+                  function myFunc() {
+                    window.location.href="register.html";
+                  }
+                </script>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div class="home-nav">
+                <div class="home-top">
+                  <span class="home-logo1">MARRIAGE</span>
+                  <div data-thq="thq-close-menu" class="home-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="home-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="home-links1">
+                  <span class="home-nav11">Home</span>
+                  <span class="home-nav21">About</span>
+                  <span class="home-nav31">Features</span>
+                  <span class="home-nav41">Pricing</span>
+                  <span class="home-nav51">Contact</span>
+                </nav>
+                <div class="home-buttons1">
+                  <button class="home-login1 button">Login</button>
+                  <a href="register.html"><button class="home-register1 button">Register</button></a>
+                </div>
+              </div>
+              
+            </div>
+          </header>
+        </div>
+        <div class="home-hero">
+          <div class="home-hero1">
+            <div class="home-container01">
+              <h1 class="home-hero-heading heading1">
+                Find Your Perfect Match
+              </h1>
+              <span class="home-hero-sub-heading">
+                Join the leading marriage website
+              </span>
+              <div class="home-btn-group">
+                <button class="home-hero-button1 button" onclick="alert('Your sighning is In Progress')">Get Started</button>
+                <a href="learnmore.html" target="_blank"><button class="home-hero-button2 button">
+                  Learn More&nbsp;→
+                </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-details"></div>
+        <div class="home-features">
+          <div class="home-features-container">
+            <div class="home-features1">
+              <div class="home-container02">
+                <span class="home-text sectionTitle">
+                  <span>features</span>
+                  <br />
+                </span>
+                <h2 class="home-features-heading heading2">
+                  Find Your Perfect Match
+                </h2>
+                <span class="home-features-sub-heading">
+                  Discover the amazing features that make our marriage website
+                  the best choice for finding love.
+                </span>
+              </div>
+              <div class="home-container03">
+                <div class="feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>User Profiles</span>
+                    </h3>
+                    <span class="feature-card-text1">
+                      <span>
+                        Create and customize your profile to showcase your
+                        personality and interests.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Advanced Search</span>
+                    </h3>
+                    <span class="feature-card-text1">
+                      <span>
+                        Find your perfect match with our powerful search filters
+                        based on age, location, interests, and more.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Matchmaking Algorithm</span>
+                    </h3>
+                    <span class="feature-card-text1">
+                      <span>
+                        Our intelligent algorithm suggests compatible profiles
+                        based on your preferences and behavior.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Secure Messaging</span>
+                    </h3>
+                    <span class="feature-card-text1">
+                      <span>
+                        Communicate safely with other members through our
+                        encrypted messaging system.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-pricing">
+          <div class="home-pricing1">
+            <div class="home-container04">
+              <span class="home-text03 sectionTitle">
+                <span>Pricing</span>
+                <br />
+              </span>
+              <h2 class="home-pricing-heading heading2">
+                Choose the Perfect Plan for You
+              </h2>
+              <span class="home-pricing-sub-heading">
+                Upgrade to unlock more features and increase your chances of
+                finding love
+              </span>
+            </div>
+            <div class="home-container05">
+              <div class="home-pricing-card">
+                <div class="home-container06">
+                  <span class="home-text06 heading3">Free</span>
+                  <span class="home-free-plan-description">
+                    Create a basic profile and browse through other profiles
+                  </span>
+                </div>
+                <div class="home-container07">
+                  <span class="home-text07">
+                    <span>Rs</span>
+                    <span></span>
+                  </span>
+                  <span class="home-free-plan-price">0</span>
+                </div>
+                <div class="home-container08">
+                  <div class="home-container09">
+                    <span class="home-text10">✔</span>
+                    <span class="home-free-plan-features">
+                      Access to limited number of profiles
+                    </span>
+                  </div>
+                  <div class="home-container10">
+                    <span class="home-text11">✔</span>
+                    <span class="home-free-plan-features1">
+                      Send and receive limited number of messages
+                    </span>
+                  </div>
+                  <div class="home-container11">
+                    <span class="home-text12">✔</span>
+                    <span class="home-free-plan-features2">
+                      Basic search filters
+                    </span>
+                  </div>
+                  <div class="home-container12">
+                    <span class="home-text13">✔</span>
+                    <span class="home-free-plan-features3">
+                      Limited photo uploads
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button button">Continue with Free</button>
+              </div>
+              <div class="home-pricing-card1">
+                <div class="home-container13">
+                  <span class="home-text14 heading3">BASIC</span>
+                  <span class="home-basic-plan-description">
+                    Unlock more features and connect with more people
+                  </span>
+                </div>
+                <div class="home-container14">
+                  <span class="home-text15">
+                    <span>Rs</span>
+                    <span></span>
+                  </span>
+                  <span class="home-basic-plan-pricing">200</span>
+                  <span class="home-text18">/ month</span>
+                </div>
+                <div class="home-container15">
+                  <div class="home-container16">
+                    <span class="home-text19">✔</span>
+                    <span class="home-text20">All features of FREE plan</span>
+                  </div>
+                  <div class="home-container17">
+                    <span class="home-text21">✔</span>
+                    <span class="home-basic-plan-features">
+                      Access to unlimited profiles
+                    </span>
+                  </div>
+                  <div class="home-container18">
+                    <span class="home-text22">✔</span>
+                    <span class="home-basic-plan-features1">
+                      Send and receive unlimited messages
+                    </span>
+                  </div>
+                  <div class="home-container19">
+                    <span class="home-text23">✔</span>
+                    <span class="home-basic-plan-features2">
+                      Advanced search filters
+                    </span>
+                  </div>
+                  <div class="home-container20">
+                    <span class="home-text24">✔</span>
+                    <span class="home-basic-plan-features3">
+                      Unlimited photo uploads
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button1 button">Try the Basic plan</button>
+              </div>
+              <div class="home-pricing-card2">
+                <div class="home-container21">
+                  <span class="home-text25 heading3">
+                    <span>PRO</span>
+                    <br />
+                  </span>
+                  <span class="home-pro-plan-description">
+                    Get the ultimate experience and maximize your chances of
+                    finding a perfect match
+                  </span>
+                </div>
+                <div class="home-container22">
+                  <span class="home-text28">
+                    <span>Rs</span>
+                    <span></span>
+                  </span>
+                  <span class="home-pro-plan-pricing">500</span>
+                  <span class="home-text31">/ month</span>
+                </div>
+                <div class="home-container23">
+                  <div class="home-container24">
+                    <span class="home-text32">✔</span>
+                    <span class="home-text33">
+                      &nbsp;All features of BASIC plan
+                    </span>
+                  </div>
+                  <div class="home-container25">
+                    <span class="home-text34">✔</span>
+                    <span class="home-pro-plan-features">
+                      Highlighted profile for increased visibility
+                    </span>
+                  </div>
+                  <div class="home-container26">
+                    <span class="home-text35">✔</span>
+                    <span class="home-pro-plan-features1">
+                      Priority customer support
+                    </span>
+                  </div>
+                  <div class="home-container27">
+                    <span class="home-text36">✔</span>
+                    <span class="home-pro-plan-features2">
+                      Advanced matching algorithms
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button2 button">Try the PRO plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <section id="testimonials">
+         
+          <div class="testimonial-heading">
+              <span>reviews</span>
+              <h1>Couples says</h1>
+          </div>
+         
+          <div class="testimonial-box-container">
+             
+              <div class="testimonial-box">
+                 
+                  <div class="box-top">
+                     
+                      <div class="profile">
+                          
+                          <div class="profile-img">
+                              <img src="akhil-pawar-Ys52rPvPbpU-unsplash.jpg" />
+                          </div>
+                          
+                          <div class="name-user">
+                              <strong>Ashwini & Yash</strong>
+                              <span>Mahrashtra</span>
+                          </div>
+                      </div>
+                    
+                      <div class="reviews">
+                          
+                      </div>
+                  </div>
+                
+                  <div class="client-comment">
+                      <p>It was a very good experience for me. We matched on ShubhMangalam.com and hit it off with first meeting itself. The compatibility with the partner is very important.</p>
+                  </div>
+              </div>
+              
+              <div class="testimonial-box">
+                  
+                  <div class="box-top">
+                     
+                      <div class="profile">
+                          
+                          <div class="profile-img">
+                              <img src="tyler-nix-KIH_KmOumII-unsplash.jpg" />
+                          </div>
+                          
+                          <div class="name-user">
+                              <strong>Shubham & Samradhni</strong>
+                              <span>Rajasthan</span>
+                          </div>
+                      </div>
+                     
+                      <div class="reviews">
+                          
+                      </div>
+                  </div>
+                
+                  <div class="client-comment">
+                      <p>I actually lost hope of all matrimonial sites after so many fake profiles and people only looking for hookups but then i met Shubham and he was all what i looked for. Thank you</p>
+                  </div>
+              </div>
+              
+              <div class="testimonial-box">
+                 
+                  <div class="box-top">
+                     
+                      <div class="profile">
+                      
+                          <div class="profile-img">
+                              <img src="jonathan-borba-Id4Hvej_w7k-unsplash.jpg" />
+                          </div>
+                          
+                          <div class="name-user">
+                              <strong>Harsh & Riya</strong>
+                              <span>Mahrashtra</span>
+                          </div>
+                      </div>
+                      
+                      <div class="reviews">
+
+                      </div>
+                      
+                  </div>
+                 
+                  <div class="client-comment">
+                      <p>We had initially sent requests to each other, and Heena declined my request because her bucket list already had many people. However, unknowingly, she rejected it, and that's how</p>
+                  </div>
+              </div>
+            
+              <div class="testimonial-box">
+               
+                <div class="box-top">
+                   
+                    <div class="profile">
+                       
+                        <div class="profile-img">
+                            <img src="mohit-maru-NCrvRQdvTx8-unsplash.jpg" />
+                        </div>
+                     
+                        <div class="name-user">
+                            <strong>Mohit & Divyashi</strong>
+                            <span>Karnataka</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="client-comment">
+                    <p>Still in India, where arranged marriages were the norm, a remarkable love story unfolded that defied all conventions. It all began on a typical day when destiny brought together</p>
+                </div>
+              </div>
+          </div>
+      </section>
+        <div class="home-gallery">
+          <div class="home-gallery1">
+            <h1 class="home-gallery-heading heading2">
+              Find Your Perfect Match
+            </h1>
+            <span class="home-gallery-sub-heading">
+              Browse through our gallery to see happy couples who found love on
+              our marriage website
+            </span>
+            <div class="home-container28">
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="photo1.jpg" class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name1"
+              >
+                <img
+                  alt="image"
+                  src="photo2.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name3"
+              >
+                <img
+                  alt="image"
+                  src="photo3.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name2"
+              >
+                <img
+                  alt="image"
+                  src="photo4.jpeg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name4"
+              >
+                <img
+                  alt="image"
+                  src="photo5.jpeg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name5"
+              >
+                <img
+                  alt="image"
+                  src="photo6.jpeg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name6"
+              >
+                <img
+                  alt="image"
+                  src="photo7.jpeg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name7"
+              >
+                <img
+                  alt="image"
+                  src="photo8.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name8"
+              >
+                <img
+                  alt="image"
+                  src="photo9.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name9"
+              >
+                <img
+                  alt="image"
+                  src="photo10.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name10"
+              >
+                <img
+                  alt="image"
+                  src="photo11.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name11"
+              >
+                <img
+                  alt="image"
+                  src="photo12.jpg"
+                  class="gallery-card3-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner"></div>
+        <div class="home-faq">
+          <div class="home-faq-container">
+            <div class="home-faq1">
+              <div class="home-container29">
+                <span class="home-text37 sectionTitle">
+                  <span>FAQ</span>
+                  <br />
+                </span>
+                <h2 class="home-text40 heading2">Common questions</h2>
+                <span class="home-text41">
+                  <span>
+                    Here are some of the most common questions that we get.
+                  </span>
+                  <br />
+                  <span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div class="home-container30">
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>What is a marriage website?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      A marriage website is a platform that helps individuals
+                      find potential partners for marriage.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>How does a marriage website work?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      Marriage websites typically allow users to create
+                      profiles, search for compatible matches, and communicate
+                      with other users. They may also offer additional features
+                      such as matchmaking algorithms and personalized
+                      recommendations.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>Is it safe to use a marriage website?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      Most reputable marriage websites prioritize user safety
+                      and employ various security measures to protect user
+                      information. However, it is important to exercise caution
+                      and follow safety guidelines while interacting with others
+                      online.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>
+                      Can I find a partner from a specific religion or community
+                      on a marriage website?
+                    </span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      Yes, many marriage websites offer filters and search
+                      options that allow users to specify their preferences,
+                      including religion, community, and other criteria.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>
+                      Are marriage websites only for arranged marriages?
+                    </span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      No, marriage websites cater to individuals seeking both
+                      arranged marriages and love marriages. Users can specify
+                      their preferences and intentions in their profiles.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-footer">
+          <footer class="home-footer1">
+            <div class="home-container31">
+              <span class="home-logo2">MARRIAGE</span>
+              <nav class="home-nav1">
+                <span class="home-nav12">Home</span>
+                <span class="home-nav22">About</span>
+                <span class="home-nav32">Features</span>
+                <span class="home-nav42">Pricing</span>
+                <span class="home-nav52">Contact</span>
+              </nav>
+            </div>
+            <div class="home-separator"></div>
+            <div class="home-container32">
+              <span class="home-text58">
+                © 2023 myCompany, All Rights Reserved.
+              </span>
+              
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
